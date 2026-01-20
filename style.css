@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-.box {
+/* .box {
   width: 800px;
   height: 500px;
   background-color: lightblue;
@@ -17,8 +17,8 @@
 }
 /* breakpoints in css - media queries */
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 800px) {
   .box {
     width: 300px;
   }
-}
+}  */

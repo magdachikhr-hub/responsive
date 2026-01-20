@@ -47,6 +47,16 @@ header {
     .burger_menu_links {
       display: none;
     }
+    ul.classic_menu {
+      gap: 40px;
+      li {
+        list-style: none;
+      }
+      a {
+        text-decoration: none;
+        color: #2c2825;
+      }
+    }
     .burger_menu_links {
       position: absolute;
       top: 36px;
@@ -71,5 +81,22 @@ header {
     div.burger_menu {
       position: relative;
     }
+  }
+}
+
+@media screen and (min-width: 800px) {
+  h2.short_title {
+    display: none;
+  }
+
+  header .header_container h2.long_title {
+    display: block;
+  }
+
+  div.burger_menu {
+    display: none;
+  }
+  header .header_container ul.classic_menu {
+    display: flex;
   }
 }

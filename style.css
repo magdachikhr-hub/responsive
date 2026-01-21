@@ -85,6 +85,38 @@ header {
   }
 }
 
+/* section first */
+section.first {
+  margin-top: 66px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h1 {
+    font-size: 35px;
+    margin-bottom: 44px;
+  }
+  div.background_image {
+    background-image: url(./images/pexels-danielnouri-8253780.jpg);
+    background-size: cover;
+    width: 263px;
+    height: 570px;
+    display: flex;
+    align-items: end;
+    padding: 0 0 20px 20px;
+    border-radius: 28px;
+    position: relative;
+  }
+  p.sale {
+    position: absolute;
+    width: 130px;
+    height: 120px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 160%;
+    left: 32px;
+  }
+}
+
 @media screen and (min-width: 800px) {
   h2.short_title {
     display: none;
@@ -99,5 +131,24 @@ header {
   }
   header .header_container ul.classic_menu {
     display: flex;
+  }
+  section.first h1 {
+    font-size: 80px;
+  }
+  section.first div.background_image {
+    background-image: url(./images/pexels-faith-matthews-3351498-320116.webp);
+    width: 640px;
+    height: 570px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  section.first h1 {
+    font-size: 120px;
+  }
+  section.first div.background_image {
+    background-image: url(./images/pexels-joshsorenson-1384898.webp);
+    width: 1120px;
+    height: 570px;
   }
 }

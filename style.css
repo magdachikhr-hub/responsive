@@ -117,6 +117,35 @@ section.first {
   }
 }
 
+/* section second */
+section.second {
+  margin-top: 120px;
+
+  span {
+    color: #575757;
+    font-size: 20px;
+  }
+  p.about_paragraph {
+    font-size: 30px;
+    width: 240px;
+    height: 104px;
+    text-align: center;
+  }
+  ul {
+    background-color: #ffc800;
+    width: fit-content;
+  }
+
+  a {
+    padding: 8px 12px 8px 26px;
+    text-decoration: none;
+    color: black;
+  }
+}
+
+/* responsive */
+
+/* tablet */
 @media screen and (min-width: 800px) {
   h2.short_title {
     display: none;
@@ -141,7 +170,7 @@ section.first {
     height: 570px;
   }
 }
-
+/* desktop */
 @media screen and (min-width: 1200px) {
   section.first h1 {
     font-size: 120px;
